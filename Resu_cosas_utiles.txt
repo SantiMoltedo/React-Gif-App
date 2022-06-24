@@ -1,0 +1,6 @@
+Strict Mode de react hace q salte 2 veces la peticion de la API, pero es solo x el strict mode, dsp cuando pase a produccion se hace solo 1. Mejor dejarlo aunque sea molesto xq solucina errores
+
+HOOKS:
+useState, bastante sencillo, se usa para cuando hay cosas que tienen que en funcion de un ingreso de usuario, ir cambiando
+
+useEffect, es para que cuando se se produzca algun efecto, use alguna funcion o no
