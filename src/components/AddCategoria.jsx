@@ -16,7 +16,7 @@ export const AddCategoria = ({ onNewCategory, actualCategorias }) => {
     }
 
     return (
-        <form onSubmit={(evento => onSubmit(evento))}>
+        <form role="form" onSubmit={(evento => onSubmit(evento))}>
             <input
                 type="text"
                 placeholder="Buscar Gifs"

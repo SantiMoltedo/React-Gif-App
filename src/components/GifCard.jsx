@@ -1,5 +1,4 @@
-
-import React from 'react'
+import PropTypes from "prop-types"
 
 export const GifCard = ({ gif }) => {
     return (
@@ -8,4 +7,8 @@ export const GifCard = ({ gif }) => {
             <img src={gif.url}></img>
         </div>
     )
+}
+
+GifCard.propTypes = {
+    gif: PropTypes.object.isRequired,
 }
