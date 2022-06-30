@@ -9,6 +9,7 @@ export const AddCategoria = ({ onNewCategory, actualCategorias }) => {
 
     const onSubmit = (evento) => {
         evento.preventDefault()
+        console.log(typeof (inputValue));
         if (inputValue.trim().length < 1 || actualCategorias.includes(inputValue.trim()))
             return
         onNewCategory(inputValue.trim());
